@@ -1,62 +1,66 @@
-# budget-trucker
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
-
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+# Budget-Trucker
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+![badmath](https://img.shields.io/badge/BUDGET-tracker-red)
 
-- - -
+![badmath](https://img.shields.io/badge/license-MIT-brightgreen)
 
-## Commit Early and Often
+## Table of Contents
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [URL](#url)
+- [License](#mit_license)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Installation
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+1. Clone the repo.
+2. Run npm install command in your terminal/bash.
+3. Then run node server.js command in your terminal/bash.
 
-* Follow these guidelines for committing:
+## Usage
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+This Budget Trucker Application  gives opportunity to the user to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they can populate the total when brought back online.
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+The following screenshot demonstrates the application functionality:
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+![HomePage demo](public/images/homepage.png)
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+## Credits
+This was a solo project comlepeted by Volodymyr Petrytsya.
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## URL
 
-## Submission on BCS
+[Link to the deployed Workout Tracker Application](https://still-harbor-58893.herokuapp.com/)
 
-* You are required to submit the following:
+## MIT_License
 
-  * the URL to the deployed application
+Copyright (c) [2020][volodymyr petrytsya]
 
-  * the URL to the Github repository
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ <!-- ## Contributing
+
+If you would like to contribute to this project, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines.  -->
+
+
+
+
 
