@@ -32,7 +32,7 @@ This was a solo project comlepeted by Volodymyr Petrytsya.
 
 ## URL
 
-[Link to the deployed Workout Tracker Application](https://still-harbor-58893.herokuapp.com/)
+[Link to the deployed Budget Tracker Application](https://still-harbor-58893.herokuapp.com/)
 
 ## MIT_License
 
