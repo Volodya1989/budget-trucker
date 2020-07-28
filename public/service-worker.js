@@ -4,8 +4,8 @@ const FILES_TO_CACHE = [
   "app.js",
   "favicon.ico",
   "/manifest.webmanifest",
-  "style.css",
   "service-worker.js",
+  "/style.css",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png",
 ];
